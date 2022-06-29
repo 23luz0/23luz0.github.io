@@ -1,0 +1,120 @@
+@media(min-width:320px ){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+    #hero{
+        
+        height: 100vh;
+        background-image: linear-gradient(0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+        )
+        ,url(./img/img.jpeg);
+        
+    }
+    #hero h1{
+        font-size: 4em;
+        
+    }
+    .somos-photo .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .somos-photo .texto{
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px; 
+    }
+    .somos-photo h2{
+        margin: 0px;
+    }
+    
+    .somos-photo .img-container{
+        background-image: url(/img/nobo.webp);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;  
+    }
+    #nuestros-cursos .cursos{
+        display: flex;
+        justify-content: center;
+    }
+    #nuestros-cursos p{
+        display: block;
+        
+    }
+    #nuestros-cursos .carta1{
+        padding: 50px;
+        
+    }
+    #nuestros-cursos .carta2{
+        padding: 50px;
+        
+    }
+    #nuestros-cursos .carta3{
+        padding: 50px;
+        
+    }
+    #nuestros-cursos h2{
+        font-size: 100px;
+    }
+    .carta1:hover{
+        box-shadow:#00a8e8 0px 0px 10px;  
+    }
+    .carta2:hover{
+        box-shadow:#00a8e8 0px 0px 10px;  
+    }
+    .carta3:hover{
+        box-shadow:#00a8e8 0px 0px 10px;  
+    }
+    .carta3{
+        box-shadow:2px 2px 10px rgba(0,0,0,9);  
+    }
+    .carta2{
+        box-shadow:2px 2px 10px rgba(0,0,0,9);  
+    }
+    .carta1{
+        box-shadow:2px 2px 10px rgba(0,0,0,9);  
+    }
+
+
+    #caracteristicas{
+        background-image: url(./img/best.png);
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100hv - 700px) - 120px;
+    }
+    #caracteristicas .container{
+        text-align: end;
+       
+    }
+    #caracteristicas ul{
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    
+    #final h2{
+        font-size: 5em;
+    }
+   footer .container {
+    justify-content: flex-end;
+   }
+
+
+}
